@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Global font assignments - body uses Urbanist, headings use Playfair Display */
+@layer base {
+  html,
+  body {
+    font-family: "Urbanist";
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display";
+  }
+}
