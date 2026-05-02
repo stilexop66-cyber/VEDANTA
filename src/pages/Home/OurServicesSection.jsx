@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Check } from "lucide-react";
+import HomeOurServicesBG from "../../assets/HomeOurServicesBG.png";
+import HomeOurServicesImg1 from "../../assets/HomeOurServicesImg1.png";
+import HomeOurServicesImg2 from "../../assets/HomeAbout3.png";
 
 const leftServices = [
   "Civil Litigation & Dispute Resolution",
@@ -40,11 +43,11 @@ const OurServicesSection = () => {
         className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
         style={{
           backgroundImage:
-            'url("https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=2000&q=80")', // Classic court building background
+            `url(${HomeOurServicesBG})`, // Classic court building background
         }}
       >
-        <div className="absolute inset-0 bg-[#1a120c]/90 mix-blend-multiply"></div>
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-[#1a120c]/45 mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-black/45"></div>
       </div>
 
       <div className="relative z-10 max-w-275 mx-auto px-4 md:px-8">
@@ -70,7 +73,7 @@ const OurServicesSection = () => {
             {/* Bottom Image for Left Column */}
             <div className="w-full max-w-125 h-62.5 md:h-80 mt-4 shadow-xl overflow-hidden border-2 border-white/5">
               <img
-                src="https://images.unsplash.com/photo-1593115057322-e94b595728de?auto=format&fit=crop&w=800&q=80"
+                src={HomeOurServicesImg1}
                 alt="Courtroom interior with desks"
                 className="w-full h-full object-cover object-center filter brightness-[0.85] contrast-125"
               />
@@ -82,7 +85,7 @@ const OurServicesSection = () => {
             {/* Top Image for Right Column */}
             <div className="w-full max-w-125 h-62.5 md:h-80 mb-4 shadow-xl overflow-hidden border-2 border-white/5 z-20">
               <img
-                src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=800&q=80"
+                src={HomeOurServicesImg2}
                 alt="Courtroom desk with lamp"
                 className="w-full h-full object-cover object-center filter brightness-90 sepia-[0.3]"
               />
