@@ -2,6 +2,7 @@
 import React from "react";
 import HeroHomeBG from "../../assets/HeroHomeBG.png";
 import FounderPhoto from "../../assets/FounderPhoto.png";
+import Signature from "../../assets/FounderSign.png";
 
 const FounderSection = () => {
   return (
@@ -34,13 +35,15 @@ const FounderSection = () => {
           </div>
 
           <div className="mt-8 text-center lg:text-left pt-2 pb-6 lg:pl-2.5">
-            <h2 className="text-[26px] sm:text-[32px]   font-bold tracking-wide text-white">
+            <h2 className="text-[26px] md:text-[36px] sm:text-[32px]   font-bold tracking-wide text-white">
               B.S. Sarkar
             </h2>
-            <div className="w-px h-1 bg-[#C4A661] my-2 sm:my-4 mx-auto lg:mx-0 opacity-0"></div>
-            <p className="text-[34px] sm:text-[44px] text-white signature-font transform rotate-[-8deg] origin-left w-fit mx-auto lg:mx-0 ml-1">
-              B.s. Sarkar
-            </p>
+            <div className="w-12 md:w-16 h-0.5 md:h-0.75 bg-[#C4A661] mb-8 md:mb-1"></div>
+            <img
+              src={Signature}
+              alt="Founder Signature"
+              className="w-32 sm:w-40 md:w-48 mx-auto lg:mx-0 opacity-100"
+            />
           </div>
         </div>
 
