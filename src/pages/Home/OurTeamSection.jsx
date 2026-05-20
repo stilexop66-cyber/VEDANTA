@@ -145,10 +145,10 @@ const OurTeamSection = () => {
           </div>
         </div>
 
-        <div className="max-w-350 mx-auto flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch">
+        <div className="max-w-350 mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
 
           {/* Left Column: 3x3 Image Grid (9 Columns/Boxes as requested) */}
-          <div className="w-full lg:w-7/12 xl:w-2/3">
+          <div className="w-full lg:col-span-7">
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6">
               {teamMembers.map((member) => (
                   <div key={member.id} className="flex flex-col group cursor-pointer">
@@ -165,7 +165,7 @@ const OurTeamSection = () => {
                     </div>
                     {/* Name Label */}
                     <div className="mt-3 text-center">
-                      <h4 className="text-[15px] md:text-[17px] font-bold tracking-wide text-gray-900">
+                      <h4 className="text-[15px] md:text-[17px] font-bold tracking-wide text-gray-900 font-serif">
                         {member.name}
                       </h4>
                     </div>
@@ -175,14 +175,14 @@ const OurTeamSection = () => {
           </div>
 
           {/* Right Column: Text block and Stats (Dark Theme) */}
-          <article className="w-full lg:w-5/12 xl:w-1/3 bg-[#161616] flex flex-col justify-between p-8 md:p-10 lg:p-12 shadow-2xl">
+          <article className="w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-8 md:p-10 lg:p-12 shadow-2xl">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-white uppercase mb-2">
                 Our Team
               </h3>
               <div className="w-12 h-0.75 bg-[#C4A661] mb-6"></div>
 
-              <div className="space-y-4 text-gray-300 text-[14.5px] md:text-[18px] leading-[2] font-light tracking-wide text-justify lg:text-left">
+              <div className="space-y-4 text-gray-300 text-[14.5px] md:text-[18px] lg:text-[18px]  leading-[2]  font-light tracking-wide text-justify lg:text-left">
                 <p>
                   At Vedanta Legal Associates, we pride ourselves on having a strong, unified
                   team of lawyers, junior associates, law clerks, and support staff working together
@@ -201,7 +201,7 @@ const OurTeamSection = () => {
               </div>
             </div>
 
-            <div className="mt-10">
+            <div className="mt-1">
               {/* Firm Statistics */}
               <div className="grid grid-cols-3 gap-4 border-t border-gray-700/50 pt-8 mb-10">
                 <div className="text-center flex flex-col items-center">
@@ -220,7 +220,7 @@ const OurTeamSection = () => {
 
               {/* CTA Button */}
               <div className="flex justify-center lg:justify-start">
-                <button className="w-full lg:w-auto bg-[#C4A661] text-black px-8 py-3.5 text-sm md:text-[15px] flex items-center justify-center gap-3 hover:bg-[#b09557] transition-colors group font-bold tracking-widest uppercase">
+                <button className="w-full lg:w-auto bg-[#C4A661] text-black px-8 py-3.5 text-sm md:text-[15px] flex items-center justify-center gap-3 hover:bg-[#b09557] transition-colors group font-bold tracking-widest uppercase whitespace-nowrap">
                   View Team Members
                   <span className="bg-black/10 rounded-full p-1 flex items-center justify-center text-black group-hover:translate-x-1 transition-transform">
                   <ArrowUpRight size={16} strokeWidth={2.5} />
