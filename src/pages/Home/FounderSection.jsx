@@ -9,33 +9,33 @@ const FounderSection = () => {
     return (<section
 
         className="relative min-h-screen w-full text-white overflow-hidden py-16 md:py-24 px-5 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-start"
-        style={{
-            backgroundImage: `url(${HeroHomeBG})`, backgroundSize: "cover", backgroundPosition: "center",
-        }}
-        aria-label="Vedanta Legal Associates Introduction"
+        // style={{
+        //     backgroundImage: `url(${HeroHomeBG})`, backgroundSize: "cover", backgroundPosition: "center",
+        // }}
+        // aria-label="Vedanta Legal Associates Introduction"
     >
         {/* Optional: Dark overlay to ensure text readability over the background image */}
         <div className="absolute inset-0 bg-black/30 pointer-events-none"></div>
 
         {/* --- HERO / TOP SECTION --- */}
         <header
-            className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center mt-4 mb-20 md:mb-32 space-y-6">
+            className="relative z-10 w-full max-w-5xl mx-auto flex flex-col items-center text-center mt-4 mb-20 md:mb-26 space-y-8">
             {/* Logo Placeholder */}
             <div
-                className="flex items-center justify-center w-32 h-32 md:w-40 md:h-40 bg-white/10 rounded-full border-none border-[#C4A661]/50 backdrop-blur-sm mb-4">
+                className="flex items-center justify-center w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 bg-white/10 rounded-full border-none border-[#C4A661]/50 backdrop-blur-sm mb-6">
                 <img src="/favicon.svg" alt="Vedanta Legal Associates Logo" className="w-full h-full object-contain"/>
-                <span className="text-xl md:text-2xl font-bold text-[#C4A661] tracking-widest uppercase">
+                <span className="text-2xl md:text-3xl font-bold text-[#C4A661] tracking-widest uppercase">
 
           </span>
             </div>
 
             {/* Firm Name */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide text-white drop-shadow-lg">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-wide text-white drop-shadow-lg">
                 Vedanta Legal Associates
             </h1>
 
             {/* Tagline */}
-            <p className="text-lg sm:text-xl md:text-2xl font-medium italic text-gray-200 tracking-wide max-w-3xl drop-shadow-md">
+            <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium italic text-gray-200 tracking-wide max-w-4xl drop-shadow-md">
                 “Committed to Diligent and Time Bound Resolution of Matters”
             </p>
         </header>

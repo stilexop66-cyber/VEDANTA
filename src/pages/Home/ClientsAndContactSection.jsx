@@ -27,7 +27,7 @@ const LogoItem = ({ Icon, text }) => (
 
 const ClientsAndContactSection = () => {
   return (
-    <section className="relative w-full py-16 md:py-10 bg-[#FAFAFA] overflow-visible mt-10">
+    <section className="relative w-full py-16 md:py-5 bg-[#FAFAFA] overflow-visible mt-10">
       <div className="max-w-300 mx-auto px-4 md:px-8">
         {/* OUR CLIENTS SECTION */}
         <div className="flex flex-col items-center mb-4 md:mb-8">

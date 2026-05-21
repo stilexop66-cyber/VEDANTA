@@ -9,17 +9,17 @@ const partnersData = [
   { id: 2, name: "Ritwika Sinha", imageSrc: CoFounderPhoto },
   { id: 3, name: "Siddhartha Singh", imageSrc: CoFounderPhoto },
   { id: 4, name: "Aayushi Mehta", imageSrc: CoFounderPhoto },
-  { id: 5, name: "Aarish Dhunjibhoy", imageSrc: CoFounderPhoto },
-  { id: 6, name: "Abinash Pradhan", imageSrc: CoFounderPhoto },
-  { id: 7, name: "Abir Patel", imageSrc: CoFounderPhoto },
-  { id: 8, name: "Akshay Gandhi", imageSrc: CoFounderPhoto },
-  { id: 9, name: "Aman Raj Gandhi", imageSrc: CoFounderPhoto },
+  // { id: 5, name: "Aarish Dhunjibhoy", imageSrc: CoFounderPhoto },
+  // { id: 6, name: "Abinash Pradhan", imageSrc: CoFounderPhoto },
+  // { id: 7, name: "Abir Patel", imageSrc: CoFounderPhoto },
+  // { id: 8, name: "Akshay Gandhi", imageSrc: CoFounderPhoto },
+  // { id: 9, name: "Aman Raj Gandhi", imageSrc: CoFounderPhoto },
 ];
 
 export default function CoFoundersPartnersSection() {
   return (
       <section
-          className="bg-[#FAFAFA] py-16 px-4 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-center w-full overflow-hidden"
+          className="bg-[#FAFAFA] py-0 px-4 sm:px-8 md:px-12 xl:px-24 flex flex-col items-center justify-center w-full overflow-hidden"
           aria-labelledby="cofounders-partners-heading"
       >
         {/* Header Section */}

@@ -23,7 +23,7 @@ const SocialCommitmentSection = () => {
 
     return (
         <section
-            className="w-full max-w-7xl mx-auto py-12 md:py-10 px-6 md:px-12 bg-[#FAFAFA]"
+            className="w-full max-w-7xl mx-auto py-12 md:py-5 px-6 md:px-12 bg-[#FAFAFA]"
             aria-labelledby="social-commitment-heading"
         >
             {/* JSON-LD Schema for rich snippet and LLM context extraction */}
@@ -45,7 +45,7 @@ const SocialCommitmentSection = () => {
                 <div className="w-16 h-0.5 md:h-[3px] bg-[#C4A661] mt-6"></div>
             </header>
 
-            <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.8] font-normal tracking-wide space-y-4 md:space-y-6 text-justify lg:text-left">
+            <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.8] font-normal tracking-wide space-y-4 md:space-y-3 text-justify lg:text-left">
                 <p>
                     IVS is a non-profit organisation associated with Vedanta Legal Associates. Established in
                     1990, IVS has been dedicated to social welfare and empowerment activities for more than

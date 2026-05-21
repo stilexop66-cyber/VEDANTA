@@ -157,7 +157,7 @@ const advisoryData = [
 // --- Subcomponents ---
 
 const SectionHeader = ({ prefix, highlight }) => (
-    <div className="text-center mb-16 flex flex-col items-center">
+    <div className="text-center mb-15 flex flex-col items-center">
       <h2 className="text-3xl md:text-[36px] tracking-widest flex flex-wrap justify-center items-center gap-x-3 gap-y-2">
         <span className="font-bold text-black uppercase">{prefix}</span>
         <span className="font-bold text-[#C4A661] uppercase relative pb-1">
@@ -194,7 +194,7 @@ const TeamMemberCard = ({ name, imageSrc }) => (
 
 export default function OurAdvisoryAssociate() {
   return (
-      <div className="bg-[#FAFAFA] min-h-screen py-20 px-4 sm:px-8 md:px-12 xl:px-24">
+      <div className="bg-[#FAFAFA] min-h-screen py-15 px-4 sm:px-8 md:px-12 xl:px-24">
         <div className="max-w-[1400px] mx-auto flex flex-col gap-24">
 
           {/* Advisory Section */}

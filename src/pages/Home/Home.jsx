@@ -34,10 +34,10 @@ export default function Home() {
       {/* 4. OUR TEAM */}
 
       {/* 5. CLIENT TESTIMONIALS */}
-      <ClientTestimonialsSection />
+      {/*<ClientTestimonialsSection />*/}
 
       {/* 6. OUR CLIENTS & CONTACT US FORM */}
-      <ClientsAndContactSection />
+      {/*<ClientsAndContactSection />*/}
         <ReachUsSection />
 
       {/* FOOTER */}

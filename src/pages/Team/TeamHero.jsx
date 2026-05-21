@@ -6,17 +6,17 @@ import HeroBG from "../../assets/HeroHomeBG.png";
 
 const PracticeAreasHero = () => {
   return (
-    <div className="relative min-h-[60vh] md:min-h-[80vh] flex flex-col justify-center overflow-hidden ">
+    <div className="relative min-h-[60vh] md:min-h-[80vh] flex flex-col justify-center overflow-hidden bg-black ">
       {/* Dynamic Background Pattern - Diagonal Lines */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none flex items-center justify-center">
-        <div
-          className="w-[200%] h-[200%] md:w-full md:h-full opacity-100"
-          style={{
-            backgroundImage: `url(${HeroBG})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
+        {/*<div*/}
+        {/*  className="w-[200%] h-[200%] md:w-full md:h-full opacity-100"*/}
+        {/*  style={{*/}
+        {/*    backgroundImage: `url(${HeroBG})`,*/}
+        {/*    backgroundSize: "cover",*/}
+        {/*    backgroundPosition: "center",*/}
+        {/*  }}*/}
+        {/*/>*/}
         {/* Soft radial gradient mask over the lines to fade them at edges */}
         {/* <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,black_70%)]" /> */}
       </div>

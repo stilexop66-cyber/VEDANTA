@@ -129,7 +129,7 @@ const AboutSection = () => {
 
   return (
       <section
-          className="w-full max-w-7xl mx-auto py-12 md:py10 px-6 md:px-12 bg-[#FAFAFA]"
+          className="w-full max-w-7xl mx-auto py-12 md:py-5 md:mt-5 px-6 md:px-12 bg-[#FAFAFA]"
           aria-labelledby="about-heading"
       >
         {/* JSON-LD Schema for rich snippet and LLM context extraction */}
@@ -147,7 +147,7 @@ const AboutSection = () => {
           </h2>
         </header>
 
-        <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-normal tracking-wide space-y-4 md:space-y-6">
+        <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-normal tracking-wide space-y-4 md:space-y-3">
           <p>
             Vedanta Legal Associates is a full-service law firm committed to excellence, integrity, and
             justice. The firm was established with a vision to provide high-quality legal services while

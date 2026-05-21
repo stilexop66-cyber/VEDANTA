@@ -129,7 +129,7 @@ const teamMembers = [
 const OurTeamSection = () => {
   return (
       <section
-          className="relative w-full bg-[#FAFAFA] py-16 md:py-24 px-4 sm:px-8 md:px-12 xl:px-24 overflow-hidden"
+          className="relative w-full bg-[#FAFAFA] pt-16 pb-13.5 md:pt-5 md:pb-2.5 px-4 sm:px-8 md:px-12 xl:px-24 overflow-hidden"
           aria-labelledby="team-heading"
       >
         {/* Top Header */}
@@ -153,7 +153,7 @@ const OurTeamSection = () => {
               {teamMembers.map((member) => (
                   <div key={member.id} className="flex flex-col group cursor-pointer">
                     {/* Image Box */}
-                    <div className="w-full aspect-3/4 bg-gray-200 overflow-hidden relative border border-gray-200 shadow-sm transition-shadow duration-300 group-hover:shadow-md">
+                    <div className="w-full rounded-2xl aspect-3/4 bg-gray-200 overflow-hidden relative border border-gray-200 shadow-sm transition-shadow duration-300 group-hover:shadow-md">
                       <img
                           src={member.imageSrc}
                           alt={member.name}
@@ -175,7 +175,7 @@ const OurTeamSection = () => {
           </div>
 
           {/* Right Column: Text block and Stats (Dark Theme) */}
-          <article className="w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-8 md:p-10 lg:p-12 shadow-2xl">
+          <article className="md:h-247 w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-8 md:p-10 lg:p-12 shadow-2xl">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-white uppercase mb-2">
                 Our Team
@@ -203,7 +203,7 @@ const OurTeamSection = () => {
 
             <div className="mt-1">
               {/* Firm Statistics */}
-              <div className="grid grid-cols-3 gap-4 border-t border-gray-700/50 pt-8 mb-10">
+              <div className="grid grid-cols-3 gap-4 border-t border-gray-700/50 pt-8 mb-7.5">
                 <div className="text-center flex flex-col items-center">
                   <span className="text-2xl md:text-3xl font-extrabold text-[#C4A661]">200+</span>
                   <span className="text-[11px] md:text-xs text-gray-400 uppercase tracking-widest mt-1">Lawyers</span>

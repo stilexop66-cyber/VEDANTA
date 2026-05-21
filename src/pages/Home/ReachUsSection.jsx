@@ -17,7 +17,7 @@ const ReachUsSection = () => {
 
     return (
         <section
-            className="relative w-full bg-[#FAFAFA] py-16 md:py-10 px-5 sm:px-8 md:px-12 xl:px-24"
+            className="relative w-full bg-[#FAFAFA] py-16 md:py-5 px-5 sm:px-8 md:px-12 xl:px-24"
             aria-labelledby="reach-us-heading"
         >
             {/* JSON-LD Schema for rich snippet and LLM context extraction */}

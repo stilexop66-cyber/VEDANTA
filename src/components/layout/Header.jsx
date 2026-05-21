@@ -43,7 +43,7 @@ const Header = () => {
                   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
                 }
               }}
-              className={`transition-colors duration-300 hover:text-[#c4a661] whitespace-nowrap ${
+              className={`transition-colors duration-300  whitespace-nowrap ${
                 path === link.path
                   ? "bg-[#2a2415] text-white px-4 py-2 border-b-2 border-[#c4a661]"
                   : "text-gray-300"
