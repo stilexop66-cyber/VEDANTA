@@ -147,34 +147,25 @@ const AboutSection = () => {
           </h2>
         </header>
 
-        <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-normal tracking-wide space-y-4 md:space-y-3 lg:text-center">
+        <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-normal tracking-wide space-y-4 md:space-y-3 text-justify">
           <p>
             Vedanta Legal Associates is a full-service law firm committed to excellence, integrity, and
             justice. The firm was established with a vision to provide high-quality legal services while
-            promoting legal awareness among the people.
-
-            The firm has three Founders and two Co-Founders. The Founders are Shri Bijoy Sarkar, Shri
-            Debesh Chandra Ray, and Shri Jamiar Hossain Khadim. The Co-Founders are Shri Kuntal
-            Ghosh and Smti Sangita Biswas.
-
-            Shri Bijoy Sarkar, one of the principal Founders, brings nearly five decades of rich and
-            extensive legal experience. He has practiced for almost 50 years before the High Courts
-            across India, the Supreme Court of India, various District Courts, Sessions Courts, and
-            Tribunals.
-
-            With the combined strength and expertise of three Founders and two Co-Founders, Vedanta
-            Legal Associates brings together vast knowledge, deep understanding of law, and a shared
-            commitment to justice. The firm blends traditional ethical values with modern legal practices
-            to effectively serve its clients.
-
-            At Vedanta Legal Associates, we are dedicated to providing reliable legal solutions to
-            individuals, families, businesses, and institutions. We are equally committed to mentoring the
-            new generation of junior lawyers and spreading legal awareness so that every citizen
-            understands and can exercise their constitutional rights.
-
-            Our practice is guided by the principles of honesty, dedication, and an unwavering
-            commitment to truth and justice. We strive to be a trusted legal partner for clients in across
-            India.
+            promoting legal awareness among the people. The firm has three Founders and two Co-Founders.
+            The Founders are Shri Bijoy Sarkar, Shri Debesh Chandra Ray, and Shri Jamiar Hossain Khadim.
+            The Co-Founders are Shri Kuntal Ghosh and Smti Sangita Biswas. Shri Bijoy Sarkar, one of the
+            principal Founders, brings nearly five decades of rich and extensive legal experience. He has
+            practiced for almost 50 years before the High Courts across India, the Supreme Court of India,
+            various District Courts, Sessions Courts, and Tribunals. With the combined strength and
+            expertise of three Founders and two Co-Founders, Vedanta Legal Associates brings together vast
+            knowledge, deep understanding of law, and a shared commitment to justice. The firm blends
+            traditional ethical values with modern legal practices to effectively serve its clients. At
+            Vedanta Legal Associates, we are dedicated to providing reliable legal solutions to individuals,
+            families, businesses, and institutions. We are equally committed to mentoring the new generation
+            of junior lawyers and spreading legal awareness so that every citizen understands and can exercise
+            their constitutional rights. Our practice is guided by the principles of honesty, dedication,
+            and an unwavering commitment to truth and justice. We strive to be a trusted legal partner for
+            clients in across India.
           </p>
         </article>
       </section>

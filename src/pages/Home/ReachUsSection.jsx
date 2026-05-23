@@ -45,7 +45,7 @@ const ReachUsSection = () => {
                 {/* Left Column: Statement Box (Sticky on Desktop) */}
                 <div className="w-full lg:w-5/12 lg:sticky lg:top-24">
                     <div className="bg-white rounded-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-gray-100 p-8 md:p-12">
-                        <div className="space-y-6 text-gray-800 text-[15px] md:text-[20px] leading-[1.8] font-light text-justify md:text-left">
+                        <div className="space-y-6 text-gray-800 text-[15px] md:text-[20px] leading-[1.8] font-light text-justify ">
                             <p>
                                 Thank you for reaching out to Vedanta Legal Associates.
 

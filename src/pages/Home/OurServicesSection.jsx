@@ -61,7 +61,7 @@ const OurServicesSection = () => {
                 Practice Areas
               </h2>
 
-              <p className="text-gray-700 text-[15px] md:text-[20px] leading-[1.8] font-light text-center lg:text-left mb-10">
+              <p className="text-gray-700 text-[15px] md:text-[20px] leading-[1.8] font-light text-justify mb-10">
                 Vedanta Legal Associates assists a wide spectrum of clients,
                 including traditional organisations and modern enterprises. We offer
                 legal services across multiple sectors through our focused practice areas.

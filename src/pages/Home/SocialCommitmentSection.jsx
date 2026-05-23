@@ -45,22 +45,13 @@ const SocialCommitmentSection = () => {
                 <div className="w-16 h-0.5 md:h-[3px] bg-[#C4A661] mt-6"></div>
             </header>
 
-            <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.8] font-normal tracking-wide space-y-4 md:space-y-3 text-justify lg:text-center">
+            <article className="text-gray-900 text-[15px] sm:text-[16px] md:text-[18px] leading-[1.8] font-normal tracking-wide space-y-4 md:space-y-3 text-justify ">
                 <p>
-                    IVS is a non-profit organisation associated with Vedanta Legal Associates. Established in
-                    1990, IVS has been dedicated to social welfare and empowerment activities for more than
-                    three decades.
-
-                    The organisation works towards promoting social equality and making justice accessible to all
-                    sections of society.
-
-                    Through various initiatives, IVS conducts legal awareness programmes, provides free legal
-                    aid to those in need, supports educational opportunities for children from weaker sections, and
-                    runs women empowerment awareness campaigns.
-
-                    IVS functions independently as a charitable body and remains committed to community
-                    development and the upliftment of society in line with constitutional values of equality and
-                    justice.
+                    IVS is a non-profit organisation associated with Vedanta Legal Associates.
+                    Established in 1990, IVS has been dedicated to social welfare and empowerment activities for more than three decades.
+                    The organisation works towards promoting social equality and making justice accessible to all sections of society.
+                    Through various initiatives, IVS conducts legal awareness programmes, provides free legal aid to those in need, supports educational opportunities for children from weaker sections, and runs women empowerment awareness campaigns.
+                    IVS functions independently as a charitable body and remains committed to community development and the upliftment of society in line with constitutional values of equality and justice.
                 </p>
             </article>
         </section>

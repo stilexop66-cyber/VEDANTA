@@ -182,7 +182,7 @@ const OurTeamSection = () => {
               </h3>
               <div className="w-12 h-0.75 bg-[#C4A661] mb-6"></div>
 
-              <div className="space-y-4 text-gray-300 text-[14.5px] md:text-[18px] lg:text-[18px]  leading-[2]  font-light tracking-wide text-justify lg:text-left">
+              <div className="space-y-4 text-gray-300 text-[14.5px] md:text-[18px] lg:text-[18px]  leading-[2]  font-light tracking-wide text-justify ">
                 <p>
                   At Vedanta Legal Associates, we pride ourselves on having a strong, unified
                   team of lawyers, junior associates, law clerks, and support staff working together
