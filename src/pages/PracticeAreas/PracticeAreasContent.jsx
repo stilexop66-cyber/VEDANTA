@@ -61,9 +61,9 @@ const PracticeAreaCard = ({
         </h3>
 
         {(listCol1 || listCol2) && (
-          <div className="flex flex-col sm:flex-row justify-center gap-x-8 md:gap-x-16 gap-y-4 mb-4 max-w-5xl mx-auto w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 md:gap-x-32 lg:gap-x-90 gap-y-6 mb-8 max-w-4xl mx-auto w-full md:px-8">
             {listCol1 && (
-              <ul className="space-y-4 flex-1 max-w-sm">
+              <ul className="space-y-4 w-full">
                 {listCol1.map((item, idx) => (
                   <li
                     key={idx}
@@ -78,7 +78,7 @@ const PracticeAreaCard = ({
               </ul>
             )}
             {listCol2 && (
-              <ul className="space-y-4 flex-1 max-w-sm">
+              <ul className="space-y-4 w-full">
                 {listCol2.map((item, idx) => (
                   <li
                     key={idx}
