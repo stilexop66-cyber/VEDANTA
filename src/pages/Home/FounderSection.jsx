@@ -41,7 +41,7 @@ const FounderSection = () => {
 
         {/* --- FOUNDER SECTION / BOTTOM SECTION --- */}
         <article
-            className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-1 bg-[#303030] pt-10 pl-10 pr-10">
+            className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-12 bg-[#303030] pt-10 pl-10 pr-10">
 
             {/* Left Column: Image & Name */}
             <div className="w-full lg:w-4/12 flex flex-col items-center lg:items-start xl:pl-4">
