@@ -87,7 +87,7 @@ const FounderSection = () => {
                 <div className="w-12 md:w-16 h-0.5 md:h-0.75 bg-[#C4A661] mb-8 md:mb-10 lg:mx-auto"></div>
 
                 <div
-                    className="space-y-4 md:space-y-5 text-[#e0e0e0] text-[15px] sm:text-[16px] md:text-[18px] leading-[1.4] md:leading-[1.4] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-8 text-justify lg:text-center">
+                    className="space-y-4 md:space-y-5 text-[#e0e0e0] text-[15px] sm:text-[16px] md:text-[22px] leading-[1.4] md:leading-[1.4] tracking-[0.015em] font-light md:pr-10 xl:pr-16 mb-8 text-justify lg:text-center">
                     <p>
                         As the Founder of Vedanta Legal Associates, I, Shri Bijoy Sarkar,
                         have practiced for almost 50 years before the High Courts across

@@ -69,7 +69,7 @@ const PracticeAreaCard = ({
                                 {listCol1.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="flex items-start gap-3 text-[#e0e0e0] font-medium"
+                                        className="flex items-start gap-3 text-[#e0e0e0] font-[18px]"
                                     >
                                         <div className="mt-1">
                                             <CheckIcon/>
@@ -84,7 +84,7 @@ const PracticeAreaCard = ({
                                 {listCol2.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="flex items-start gap-3 text-[#e0e0e0] font-medium"
+                                        className="flex items-start gap-3 text-[#e0e0e0] font-[18px]"
                                     >
                                         <div className="mt-1">
                                             <CheckIcon/>
@@ -97,7 +97,7 @@ const PracticeAreaCard = ({
                     </div>
                 )}
 
-                <div className="space-y-0 text-[#e0e0e0] text-sm md:text-base leading-relaxed text-justify">
+                <div className="space-y-0 text-[#e0e0e0] text-sm md:text-[20px] leading-relaxed text-justify">
                     {paragraphs.map((para, idx) => (
                         <p key={idx}>{para}</p>
                     ))}

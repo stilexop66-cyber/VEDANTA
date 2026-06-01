@@ -68,14 +68,14 @@ const OurTeamSection = () => {
           </div>
 
           {/* Right Column: Text block and Stats (Dark Theme) */}
-          <article className="lg:h-150 w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-5 md:p-10 lg:p-7 shadow-2xl">
+          <article className="lg:h-180 w-full lg:col-span-5 bg-[#161616] flex flex-col justify-between p-5 md:p-10 lg:p-7 shadow-2xl">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-white uppercase mb-2">
                 Our Team
               </h3>
               <div className="w-12 h-0.75 bg-[#C4A661] mb-6"></div>
 
-              <div className="space-y-4 text-[#e0e0e0] text-[14.5px] md:text-[18px] lg:text-[15px]  leading-[1.6]  font-light tracking-normal text-justify ">
+              <div className="space-y-4 text-[#e0e0e0] text-[14.5px] md:text-[18px] lg:text-[22px]  leading-[1.6]  font-light tracking-normal text-justify ">
                 <p>
                   At Vedanta Legal Associates, we pride ourselves on having a strong, unified
                   team of lawyers, junior associates, law clerks, and support staff working together
@@ -111,7 +111,7 @@ const OurTeamSection = () => {
 
               {/* CTA Button */}
               <div className="flex justify-center lg:justify-start">
-                <button className="w-full lg:w-auto bg-[#C4A661] text-black px-8 py-3 text-sm md:text-[15px] flex items-center justify-center gap-3 hover:bg-[#b09557] transition-colors group font-bold tracking-widest uppercase whitespace-nowrap">
+                <button className="w-full lg:w-auto bg-[#C4A661] text-black px-8 py-2 text-sm md:text-[15px] flex items-center justify-center gap-3 hover:bg-[#b09557] transition-colors group font-bold tracking-widest uppercase whitespace-nowrap">
                   View Team Members
                   <span className="bg-black/10 rounded-full p-1 flex items-center justify-center text-black group-hover:translate-x-1 transition-transform">
                   <ArrowUpRight size={16} strokeWidth={2.5} />
