@@ -3,15 +3,15 @@ import React from "react";
 import { ArrowUpRight } from "lucide-react";
 
 const practiceAreas = [
-  "Civil Litigation & Dispute Resolution",
-  "Criminal Litigation & Defense",
-  "Real Estate & Property",
-  "Family & Matrimonial",
-  "Corporate & Commercial",
-  "Cyber Crime & Technology",
-  "Consumer Protection",
-  "Service & Employment",
-  "Taxation",
+  { name: "Civil Litigation & Dispute Resolution", img: "/WhatsApp Image 2026-06-01 at 9.12.53 PM.jpeg" },
+  { name: "Criminal Litigation & Defense", img: "/WhatsApp Image 2026-06-01 at 9.12.53 PM (1).jpeg" },
+  { name: "Real Estate & Property", img: "/WhatsApp Image 2026-06-01 at 9.12.53 PM (2).jpeg" },
+  { name: "Family & Matrimonial", img: "/WhatsApp Image 2026-06-01 at 9.12.54 PM.jpeg" },
+  { name: "Corporate & Commercial", img: "/WhatsApp Image 2026-06-01 at 9.12.54 PM (1).jpeg" },
+  { name: "Cyber Crime & Technology", img: "/WhatsApp Image 2026-06-01 at 9.12.54 PM (2).jpeg" },
+  { name: "Consumer Protection", img: "/WhatsApp Image 2026-06-01 at 9.12.55 PM.jpeg" },
+  { name: "Service & Employment", img: "/WhatsApp Image 2026-06-01 at 9.12.55 PM (1).jpeg" },
+  { name: "Taxation", img: "/WhatsApp Image 2026-06-01 at 9.12.55 PM (2).jpeg" },
 ];
 
 const OurServicesSection = () => {
@@ -27,7 +27,7 @@ const OurServicesSection = () => {
   //       "@type": "Offer",
   //       "itemOffered": {
   //         "@type": "Service",
-  //         "name": area,
+  //         "name": area.name,
   //       },
   //       "position": index + 1,
   //     })),
@@ -61,7 +61,7 @@ const OurServicesSection = () => {
                 Practice Areas
               </h2>
 
-              <p className="text-[#e0e0e0] text-[15px] md:text-[20px] leading-[1.8] font-light text-justify mb-10">
+              <p className="text-[#e0e0e0] text-[15px] md:text-[22px] leading-[1.8] font-light text-justify mb-10">
                 Vedanta Legal Associates assists a wide spectrum of clients,
                 including traditional organisations and modern enterprises. We offer
                 legal services across multiple sectors through our focused practice areas.
@@ -89,10 +89,10 @@ const OurServicesSection = () => {
                 {practiceAreas.map((area, index) => (
                     <li
                         key={index}
-                        className="flex items-center text-gray-800 text-[14px] md:text-[16px] font-bold tracking-wide transition-colors hover:bg-gray-50 hover:text-[#a08552] bg-white shadow-[0_4px_15px_rgba(0,0,0,0.04)] border border-gray-200 px-5 py-3.5 rounded-lg max-w-full"
+                        className="flex items-center text-gray-800 text-[14px] md:text-[20px] font-bold tracking-wide transition-colors hover:bg-gray-50 hover:text-[#a08552] bg-white shadow-[0_4px_15px_rgba(0,0,0,0.04)] border border-gray-200 px-5 py-1 rounded-lg max-w-full"
                     >
-                      <span className="w-1.5 h-1.5 bg-black rounded-full mr-3 opacity-70 shrink-0"></span>
-                      <span className="whitespace-normal">{area}</span>
+                      <img src={area.img} alt={area.name} className="w-8 h-8 md:w-10 md:h-10 object-cover rounded-full mr-3 shrink-0 border border-gray-200" />
+                      <span className="whitespace-normal">{area.name}</span>
                     </li>
                 ))}
               </ul>
