@@ -33,7 +33,7 @@ const SocialIcon = ({ children }) => (
 );
 
 const FounderCard = ({ name, role, imageSrc }) => (
-  <div className="bg-white flex flex-col items-center w-full max-w-125 shadow-[0_8px_30px_rgb(0,0,0,0.08)] mx-auto">
+  <div className="bg-none flex flex-col items-center w-full max-w-125  mx-auto">
     <div className="w-full h-100 bg-gray-100 overflow-hidden">
       <img
         src={imageSrc}
@@ -42,10 +42,10 @@ const FounderCard = ({ name, role, imageSrc }) => (
       />
     </div>
     <div className="pt-5 pb-0 flex flex-col items-center">
-      <h3 className="text-2xl   font-bold text-gray-900 tracking-wide mb-0">
+      <h3 className="text-2xl   font-bold text-white tracking-wide mb-0">
         {name}
       </h3>
-      <p className="text-gray-500 font-light mb-5 tracking-wide">{role}</p>
+      <p className="text-gray-100 font-light mb-5 tracking-wide">{role}</p>
 
       {/* Social Links */}
 

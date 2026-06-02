@@ -5,6 +5,7 @@ import CoFounderPhoto from "../../assets/CoFounder.png";
 import CoFounder2 from "../../assets/FounderPhoto2.png";
 import CoFounder3 from "../../assets/FounderPhoto3.png";
 import CoFounder4 from "../../assets/CoFounder4.jpeg";
+import CoFounder5 from "../../assets/M K Bose.jpeg";
 
 // Mock data array updated to reflect the names in the reference design
 const partnersData = [
@@ -12,7 +13,7 @@ const partnersData = [
   { id: 2, name: "D.C. Roy", imageSrc: CoFounder2 },
   { id: 3, name: "J.U. Khadim", imageSrc: CoFounder3 },
   { id: 4, name: "Sangita Biswas", imageSrc: CoFounder4 },
-  // { id: 5, name: "Aarish Dhunjibhoy", imageSrc: CoFounderPhoto },
+  { id: 5, name: "M K Bose", imageSrc: CoFounder5 },
   // { id: 6, name: "Abinash Pradhan", imageSrc: CoFounderPhoto },
   // { id: 7, name: "Abir Patel", imageSrc: CoFounderPhoto },
   // { id: 8, name: "Akshay Gandhi", imageSrc: CoFounderPhoto },
@@ -29,9 +30,9 @@ export default function CoFoundersPartnersSection() {
         <div className="text-center mb-16 md:mb-10 flex flex-col items-center">
           <h2
               id="cofounders-partners-heading"
-              className="text-3xl md:text-[40px] font-extrabold tracking-wide text-[#e0e0e0] mb-2"
+              className="text-3xl md:text-[40px] font-extrabold tracking-wide text-[#e0e0e0] mb-2 uppercase"
           >
-            Cofounder & Partner
+            Co-founders & Partners
           </h2>
           {/* Decorative Gold Bar */}
           <div className="w-24 h-1 bg-[#C4A661]"></div>
