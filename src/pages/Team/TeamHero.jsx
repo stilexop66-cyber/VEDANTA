@@ -43,8 +43,7 @@ const PracticeAreasHero = () => {
             {/* Text Overlay Content */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl   text-white tracking-widest mb-6 lg:mb-10 leading-[1.2] max-w-4xl mx-auto drop-shadow-lg uppercase">
-                MEET OUR BRILLIANT
-                <br className="hidden md:block" /> GROUP OF LAWYERS
+                JOIN OUR TEAM
               </h2>
               {/* Golden line separator */}
               <div className="w-16 md:w-24 lg:w-32 h-0.5 md:h-0.75 bg-[#c4a661] drop-shadow-md"></div>
