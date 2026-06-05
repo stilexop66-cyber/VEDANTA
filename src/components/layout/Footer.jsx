@@ -80,42 +80,52 @@ export default function Footer() {
           {/* Column 2 - Pages */}
           <div className="lg:pl-10">
             <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
-              Pages
+              Legal
             </h3>
-            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
+           <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
               <li>
-                <a href="/" className="hover:text-white transition-colors">
-                  Home
+                <a
+                  href="#"
+                  className="hover:text-white transition-colors block max-w-55ing-tight"
+                >
+                  Consumer Protection
+                  <br className="hidden md:block" /> Law
                 </a>
               </li>
               <li>
                 <a
-                  href="/practice-areas"
-                  className="hover:text-white transition-colors"
+                  href="#"
+                  className="hover:text-white transition-colors block max-w-60 leading-tight"
                 >
-                  Practice Area
-                </a>
-              </li>
-              <li>
-                <a href="/team" className="hover:text-white transition-colors">
-                  Team
+                  Constitutional Law &<br className="hidden md:block" /> Public
+                  Interest
+                  <br className="hidden md:block" /> Litigation (PIL)
                 </a>
               </li>
               <li>
                 <a
-                  href="/contact"
-                  className="hover:text-white transition-colors"
+                  href="#"
+                  className="hover:text-white transition-colors block max-w-50 leading-tight"
                 >
-                  Contact
+                  Family & Matrimonial
+                  <br className="hidden md:block" /> Law
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-white transition-colors block max-w-50"
+                >
+                  Taxation & GST
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Column 3 - Practice Area 1 */}
+          {/* Column 3 - about */}
           <div className="lg:ml-[-5%] xl:ml-[-10%]">
             <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
-              Practice Area
+              About
             </h3>
             <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
               <li>
@@ -145,30 +155,14 @@ export default function Footer() {
                   <br className="hidden md:block" /> Law
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-50 leading-tight"
-                >
-                  Family & Matrimonial
-                  <br className="hidden md:block" /> Law
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-50"
-                >
-                  Taxation & GST
-                </a>
-              </li>
+              
             </ul>
           </div>
 
-          {/* Column 4 - Practice Area 2 */}
+          {/* Column 4 - legal */}
           <div className="lg:ml-[-5%] xl:ml-[-10%] mt-4 md:mt-0">
             <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide ">
-              Practice Area
+              Work
             </h3>
 
             <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
@@ -197,27 +191,8 @@ export default function Footer() {
                   Cyber Crime &<br className="hidden md:block" /> Technology Law
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-55ing-tight"
-                >
-                  Consumer Protection
-                  <br className="hidden md:block" /> Law
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-60 leading-tight"
-                >
-                  Constitutional Law &<br className="hidden md:block" /> Public
-                  Interest
-                  <br className="hidden md:block" /> Litigation (PIL)
-                </a>
-              </li>
             </ul>
-          </div>
+          </div>          
         </div>
 
         {/* GIGANTIC FADING TEXT SECTION */}
