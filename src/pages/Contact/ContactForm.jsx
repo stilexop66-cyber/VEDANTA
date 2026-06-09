@@ -171,8 +171,7 @@ export default function ContactForm() {
                                 1335,10th Cross,<br/>
                                 Judicial Layout, GKVK Post,<br/>
                                 Bangalore 560065,<br/>
-                                Karnataka, India
-                            </p>Kolkata
+                            </p>
                         </div>
                     </div>
 
