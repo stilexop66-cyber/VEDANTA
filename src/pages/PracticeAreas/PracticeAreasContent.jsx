@@ -21,105 +21,352 @@ const CheckIcon = () => (
     </svg>
 );
 
+
 const PracticeAreaCard = ({
-                              number,
-                              title,
-                              listCol1,
-                              listCol2,
-                              paragraphs,
-                          }) => {
-    return (
-        <div className="relative w-full mx-auto mb-10 md:mb-10 px-4 md:px-8">
-            {/* Background Number */}
-            {/*<div*/}
-            {/*  className="absolute z-0   font-black select-none pointer-events-none"*/}
-            {/*  style={{*/}
-            {/*    top: "-0.7em",*/}
-            {/*    left: "-0.1em",*/}
-            {/*    fontSize: "clamp(8rem, 15vw, 10rem)",*/}
-            {/*    lineHeight: "0.8",*/}
-            {/*    background:*/}
-            {/*      "linear-gradient(180deg, #9D7C36 0%, rgba(229, 216, 184, 0.3) 90%, rgba(255, 255, 255, 0) 100%)",*/}
-            {/*    WebkitBackgroundClip: "text",*/}
-            {/*    WebkitTextFillColor: "transparent",*/}
-            {/*    letterSpacing: "-0.05em",*/}
-            {/*  }}*/}
-            {/*>*/}
-            {/*    {number}*/}
-            {/*</div>*/}
+    number,
+    title,
+    listCol1,
+    listCol2,
+    paragraphs,
+}) => {
 
-            {/* Card Content */}
-            <div
-                className="relative z-10 bg-none p-8 md:p-12 lg:pt-6  rounded-sm border border-none flex flex-col gap-6">
-                <h3
-                    className="text-2xl md:text-3xl text-center font-bold relative inline-block mx-auto mb-6  rounded-sm p-2 text-[#e0e0e0]"
-                    // style={{ textShadow: "0px 4px 30px #303030 " }}
+return (
 
-                >
-                    {/*0px 2px 5px #303030,*/}
-                    {title}
-                    <div className="absolute left-1/4 right-1/4 h-0.5 bg-[#c4a661]  -bottom-3"></div>
-                </h3>
+<div className="
+relative
+w-full
+mx-auto
+mb-10
+px-3
+sm:px-4
+md:px-8
+overflow-hidden
+">
 
-                {(listCol1 || listCol2) && (
-                    <div
-                        className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 md:gap-x-32 lg:gap-x-90 gap-y-6 mb-8 max-w-4xl mx-auto w-full md:px-8 text-nowrap">
-                        {listCol1 && (
-                            <ul className="space-y-4 w-full">
-                                {listCol1.map((item, idx) => (
-                                    <li
-                                        key={idx}
-                                        className="flex items-start gap-3 text-[#e0e0e0] font-[18px]"
-                                    >
-                                        <div className="mt-1">
-                                            <CheckIcon/>
-                                        </div>
-                                        <span>{item}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        )}
-                        {listCol2 && (
-                            <ul className="space-y-4 w-full">
-                                {listCol2.map((item, idx) => (
-                                    <li
-                                        key={idx}
-                                        className="flex items-start gap-3 text-[#e0e0e0] font-[18px]"
-                                    >
-                                        <div className="mt-1">
-                                            <CheckIcon/>
-                                        </div>
-                                        <span>{item}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        )}
-                    </div>
-                )}
 
-                <div className="space-y-0 text-[#e0e0e0] text-sm md:text-[20px] leading-relaxed text-justify">
-                    {paragraphs.map((para, idx) => (
-                        <p key={idx}>{para}</p>
-                    ))}
-                </div>
-            </div>
-        </div>
-    );
+<div
+className="
+relative
+z-10
+bg-none
+p-5
+sm:p-8
+md:p-12
+lg:pt-6
+rounded-sm
+border
+border-none
+flex
+flex-col
+gap-6
+">
+
+
+<h3
+
+className="
+text-xl
+sm:text-2xl
+md:text-3xl
+text-center
+font-bold
+relative
+inline-block
+mx-auto
+mb-6
+rounded-sm
+p-2
+text-[#e0e0e0]
+break-words
+"
+
+>
+
+{title}
+
+
+<div className="
+absolute
+left-1/4
+right-1/4
+h-0.5
+bg-[#c4a661]
+-bottom-3
+"></div>
+
+
+</h3>
+
+
+
+{(listCol1 || listCol2) && (
+
+<div
+
+className="
+grid
+grid-cols-1
+sm:grid-cols-2
+gap-x-6
+md:gap-x-12
+lg:gap-x-20
+gap-y-6
+mb-8
+max-w-5xl
+mx-auto
+w-full
+px-2
+sm:px-4
+"
+
+>
+
+
+{listCol1 && (
+
+<ul className="space-y-4 w-full">
+
+
+{listCol1.map((item,idx)=>(
+
+
+<li
+
+key={idx}
+
+className="
+flex
+items-start
+gap-3
+text-[#e0e0e0]
+text-sm
+sm:text-base
+md:text-lg
+leading-relaxed
+break-words
+"
+
+>
+
+
+<div className="mt-1">
+
+<CheckIcon/>
+
+</div>
+
+
+<span>
+
+{item}
+
+</span>
+
+
+</li>
+
+
+))}
+
+
+</ul>
+
+)}
+
+
+
+{listCol2 && (
+
+<ul className="space-y-4 w-full">
+
+
+{listCol2.map((item,idx)=>(
+
+
+<li
+
+key={idx}
+
+className="
+flex
+items-start
+gap-3
+text-[#e0e0e0]
+text-sm
+sm:text-base
+md:text-lg
+leading-relaxed
+break-words
+"
+
+>
+
+
+<div className="mt-1">
+
+<CheckIcon/>
+
+</div>
+
+
+<span>
+
+{item}
+
+</span>
+
+
+</li>
+
+
+))}
+
+
+</ul>
+
+)}
+
+
+</div>
+
+)}
+
+
+
+
+<div
+
+className="
+space-y-0
+text-[#e0e0e0]
+text-sm
+sm:text-base
+md:text-lg
+lg:text-[20px]
+leading-relaxed
+text-justify
+break-words
+"
+
+>
+
+
+{paragraphs.map((para,idx)=>(
+
+<p key={idx}>
+
+{para}
+
+</p>
+
+))}
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+);
+
 };
 
+
+
+
 const PracticeAreasContent = () => {
-    return (
-        <section className="py-16 md:py-10 px-4 md:px-8 bg-[#303030] relative overflow-hidden">
-            {/* Title Section */}
-            <div className="text-center mb-10 md:mb-10">
-                <p className="text-[#e0e0e0] mb-4 tracking-wide">
-                    How Can We Help You ?
-                </p>
-                <h2 className="text-3xl md:text-5xl  text-[#e0e0e0] font-bold uppercase tracking-wider mb-6">
-                    What can we <span className="text-[#e0e0e0]">help you</span> with
-                </h2>
-                <div className="w-20 md:w-32 h-0.5 bg-[#c4a661] mx-auto"></div>
-            </div>
+
+
+return (
+
+
+<section
+
+className="
+py-10
+sm:py-12
+md:py-16
+px-3
+sm:px-4
+md:px-8
+bg-[#303030]
+relative
+overflow-hidden
+"
+
+>
+
+<div className="text-center mb-10">
+
+
+<p className="
+text-[#e0e0e0]
+mb-4
+tracking-wide
+text-sm
+sm:text-base
+">
+
+How Can We Help You ?
+
+</p>
+
+
+
+<h2
+
+className="
+text-2xl
+sm:text-3xl
+md:text-5xl
+text-[#e0e0e0]
+font-bold
+uppercase
+tracking-wider
+mb-6
+break-words
+"
+
+>
+
+What can we <span className="text-[#e0e0e0]">
+
+help you
+
+</span> with
+
+
+</h2>
+
+
+<div className="
+w-20
+md:w-32
+h-0.5
+bg-[#c4a661]
+mx-auto
+"></div>
+
+
+</div>
+
+
+<div className="
+w-full
+px-1
+sm:px-2
+lg:px-8
+mx-auto
+space-y-8
+"></div>
+
+
+{/* KEEP ALL YOUR PracticeAreaCard DATA BELOW EXACTLY SAME */}
+
 
             {/* Cards Container */}
             <div className="w-full px-2 lg:px-8 mx-auto space-y-8">

@@ -1,17 +1,28 @@
-
 import Header from "../../components/layout/Header";
 
 const PracticeAreasHero = () => {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black min-h-screen w-full">
       <Header />
 
-      <div className="w-full pt-24">
-        <img
-          src="/WhatsApp Image 2026-06-08 at 16.26.24.jpeg"
-          alt="Practice Areas"
-          className="w-full block"
-        />
+      <div className="w-full pt-20 sm:pt-24 md:pt-28">
+        <div className="w-full overflow-hidden">
+
+          {/* Mobile Image */}
+          <img
+            src="/WhatsApp Image 2026-06-10 at 15.44.45.jpeg"
+            alt="Practice Areas Mobile"
+            className="block md:hidden w-full h-auto object-contain"
+          />
+
+          {/* Desktop / Tablet Image */}
+          <img
+            src="/WhatsApp Image 2026-06-08 at 16.26.24.jpeg"
+            alt="Practice Areas Desktop"
+            className="hidden md:block w-full h-auto object-contain"
+          />
+
+        </div>
       </div>
     </div>
   );

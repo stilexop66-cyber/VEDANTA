@@ -10,225 +10,355 @@ import { Heart } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-none   relative overflow-hidden">
-      <div className="absolute inset-0 bg-linear-to-b from-gray-500 to-white pointer-events-none"></div>
-      {/* Top Main Section */}
-      <div className="pt-20 lg:pt-20 pb-0 px-6 lg:px-12 max-w-350 mx-auto w-full relative z-10">
-        {/* Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-0 xl:gap-0 mb-0">
-          {/* Column 1 - Logo & Newsletter */}
-          <div className="flex flex-col pr-4">
-            {/* Logo Row */}
-            <div className="flex items-center gap-3 mb-10">
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden shrink-0">
-                {/* Coin placeholder mimicking mockup */}
+    <footer className="bg-white relative overflow-hidden">
+
+      <div className="absolute inset-0 bg-white pointer-events-none"></div>
+
+
+      <div
+        className="
+        relative 
+        z-10 
+        w-full 
+        max-w-[1400px] 
+        mx-auto 
+        px-5 
+        sm:px-8 
+        md:px-12 
+        lg:px-16 
+        xl:px-24
+        pt-12
+        md:pt-16
+        "
+      >
+
+
+        {/* TOP SECTION */}
+
+        <div
+          className="
+          grid
+          grid-cols-1
+          sm:grid-cols-2
+          lg:grid-cols-4
+          gap-10
+          md:gap-12
+          "
+        >
+
+
+
+          {/* LOGO */}
+
+          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+
+
+            <div className="flex items-center gap-3 mb-8">
+
+
+              <div className="w-11 h-11 rounded-full overflow-hidden">
+
                 <img
                   src="/favicon.svg"
-                  alt="Vedanta Legal Logo"
-                  className="w-full h-full object-cover"
+                  alt="Vedanta Logo"
+                  className="w-full h-full object-contain"
                 />
+
               </div>
-              <h2 className="text-black text-[20px] md:text-[22px]   font-bold tracking-wide">
+
+
+              <h2 className="text-black text-xl md:text-2xl font-bold">
                 VEDANTA
               </h2>
+
+
             </div>
 
-            {/* Newsletter */}
-            <h4 className="text-black font-medium mb-4 text-[14px] md:text-[15px]">
+
+
+
+
+            <h4 className="text-black text-sm mb-4">
               Subscribe to Newsletter
             </h4>
-            <div className="w-full max-w-[320px] relative flex items-center bg-transparent border border-gray-600 rounded-full p-0.75 mb-12">
+
+
+
+
+            <div
+              className="
+              w-full
+              max-w-[320px]
+              flex
+              items-center
+              border
+              border-gray-500
+              rounded-full
+              overflow-hidden
+              "
+            >
+
               <input
                 type="email"
                 placeholder="Email Address"
-                className="bg-transparent text-[12px] md:text-[13px] px-4 py-2 focus:outline-none flex-1 text-black placeholder:text-gray-300 w-full min-w-0"
+                className="
+                flex-1
+                min-w-0
+                px-4
+                py-2
+                text-sm
+                outline-none
+                text-black
+                "
               />
-              <button className="bg-black text-white px-5 md:px-6 py-2 rounded-full text-[12px] md:text-[13px] font-semibold hover:bg-gray-200 transition-colors shrink-0">
+
+
+              <button
+                className="
+                bg-black
+                text-white
+                px-5
+                py-2
+                text-xs
+                sm:text-sm
+                rounded-full
+                "
+              >
                 Submit
               </button>
+
+
             </div>
 
-            {/* Social Icons */}
-            <div className="flex items-center gap-4">
-              <a
-                href="#"
-                className="bg-black text-white p-1.5 md:p-2 rounded-sm hover:bg-gray-200 transition-colors flex items-center justify-center"
-              >
-                <FaXTwitter size={16} />
-              </a>
-              <a
-                href="#"
-                className="bg-black text-white p-1.5 md:p-2 rounded-smver:bg-gray-200 transition-colors flex items-center justify-center"
-              >
-                <FaFacebookF size={16} />
-              </a>
-              <a
-                href="#"
-                className="bg-black text-white p-1.5 md:p-2 rounded-sm hover:bg-gray-200 transition-colors flex items-center justify-center"
-              >
-                <FaInstagram size={16} />
-              </a>
-              <a
-                href="#"
-                className="bg-black text-white p-1.5 md:p-2 rounded-smver:bg-gray-200 transition-colors flex items-center justify-center"
-              >
-                <FaLinkedinIn size={16} />
-              </a>
+
+
+
+            <div
+              className="
+              flex
+              justify-center
+              sm:justify-start
+              gap-3
+              mt-8
+              "
+            >
+
+
+              {[FaXTwitter, FaFacebookF, FaInstagram, FaLinkedinIn].map(
+                (Icon, i) => (
+
+                  <a
+                    key={i}
+                    href="#"
+                    className="
+                    bg-black
+                    text-white
+                    p-2
+                    rounded
+                    "
+                  >
+
+                    <Icon size={15}/>
+
+                  </a>
+
+                )
+              )}
+
+
             </div>
+
+
           </div>
 
-          {/* Column 2 - Pages */}
-          <div className="lg:pl-10">
-            <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
-              Legal
-            </h3>
-           <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-55ing-tight"
-                >
-                  Consumer Protection
-                  <br className="hidden md:block" /> Law
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-60 leading-tight"
-                >
-                  Constitutional Law &<br className="hidden md:block" /> Public
-                  Interest
-                  <br className="hidden md:block" /> Litigation (PIL)
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-50 leading-tight"
-                >
-                  Family & Matrimonial
-                  <br className="hidden md:block" /> Law
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-50"
-                >
-                  Taxation & GST
-                </a>
-              </li>
-            </ul>
-          </div>
 
-          {/* Column 3 - about */}
-          <div className="lg:ml-[-5%] xl:ml-[-10%]">
-            <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide">
-              Practice
-            </h3>
-            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-50 leading-tight"
-                >
-                  Civil Litigation &<br className="hidden md:block" /> Dispute
-                  Resolution
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-50 leading-tight"
-                >
-                  Criminal Litigation &<br className="hidden md:block" />{" "}
-                  Defense
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-50ing-tight"
-                >
-                  Real Estate & Property
-                  <br className="hidden md:block" /> Law
-                </a>
-              </li>
-              
-            </ul>
-          </div>
 
-          {/* Column 4 - legal */}
-          <div className="lg:ml-[-5%] xl:ml-[-10%] mt-4 md:mt-0">
-            <h3 className="text-black   text-[18px] md:text-[20px] mb-6 md:mb-8 font-normal tracking-wide ">
-              Work
-            </h3>
 
-            <ul className="space-y-4 md:space-y-5 text-[13px] font-light text-black">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-55 leading-tight"
-                >
-                  Intellectual Property
-                  <br className="hidden md:block" /> Rights
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-55 leading-tight"
-                >
-                  Banking, Finance &<br className="hidden md:block" /> Recovery
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors block max-w-55 leading-tight"
-                >
-                  Cyber Crime &<br className="hidden md:block" /> Technology Law
-                </a>
-              </li>
-            </ul>
-          </div>          
+
+
+
+          {/* COLUMNS */}
+
+
+          {[
+            {
+              title:"Legal",
+              items:[
+                "Consumer Protection Law",
+                "Constitutional Law & Public Interest Litigation (PIL)",
+                "Family & Matrimonial Law",
+                "Taxation & GST"
+              ]
+            },
+
+            {
+              title:"Practice",
+              items:[
+                "Civil Litigation & Dispute Resolution",
+                "Criminal Litigation & Defense",
+                "Real Estate & Property Law"
+              ]
+            },
+
+            {
+              title:"Work",
+              items:[
+                "Intellectual Property Rights",
+                "Banking, Finance & Recovery",
+                "Cyber Crime & Technology Law"
+              ]
+            }
+
+          ].map((section,index)=>(
+
+
+            <div
+              key={index}
+              className="text-center sm:text-left"
+            >
+
+              <h3 className="text-black text-lg md:text-xl mb-5">
+                {section.title}
+              </h3>
+
+
+              <ul
+                className="
+                space-y-4
+                text-sm
+                text-black
+                font-light
+                "
+              >
+
+                {section.items.map((item,i)=>(
+
+                  <li key={i}>
+                    {item}
+                  </li>
+
+                ))}
+
+
+              </ul>
+
+
+            </div>
+
+
+          ))}
+
+
         </div>
 
-        {/* GIGANTIC FADING TEXT SECTION */}
-        {/* Adjusted to fade out perfectly into the black background at the bottom. */}
-        <div className="w-full flex justify-center items-center mt-0 pb-0 md:pb-0 pointer-events-none select-none relative h-45 sm:h-55 md:h-65 lg:h-87.5 ">
+
+
+
+
+
+
+
+        {/* BIG TEXT */}
+
+
+        <div
+          className="
+          flex
+          justify-center
+          items-end
+          overflow-hidden
+          h-28
+          sm:h-40
+          md:h-60
+          lg:h-72
+          "
+        >
+
           <h1
-            className="absolute bottom-[-10%] lg:top-[20%] text-[28vw] sm:text-[20vw] md:text-[24vw] lg:text-[200px] xl:text-[200px]   font-normal text-transparent bg-clip-text leading-none tracking-tighter m-0 p-0 text-center w-fit "
+            className="
+            text-[24vw]
+            sm:text-[18vw]
+            md:text-[15vw]
+            lg:text-[200px]
+            leading-none
+            tracking-tighter
+            font-normal
+            text-transparent
+            bg-clip-text
+            "
             style={{
               backgroundImage:
-                "linear-gradient(to bottom, #d4d4d4 0%, #3a3a3a 40%, black 75%)",
+              "linear-gradient(to bottom,#d4d4d4,#777,white)"
             }}
           >
+
             VEDANTA
+
           </h1>
+
+
         </div>
 
-        {/* FOOTER BOTTOM BAR */}
-        <div className="border-t border-[#333] pt-6 md:pt-8 pb-4 flex flex-col sm:flex-row justify-between items-center gap-4 text-[12px] md:text-[13px] text-gray-400 font-light mx-auto w-full relative z-20">
-          <p>© 2026 Vedanta. All rights reserved.</p>
-          <div className="flex items-center justify-center gap-1.5">
+
+
+
+
+
+
+        {/* BOTTOM BAR */}
+
+
+        <div
+          className="
+          border-t
+          border-gray-300
+          py-6
+          flex
+          flex-col
+          sm:flex-row
+          justify-between
+          items-center
+          gap-4
+          text-xs
+          text-gray-500
+          text-center
+          "
+        >
+
+
+          <p>
+            © 2026 Vedanta. All rights reserved.
+          </p>
+
+
+
+          <div className="flex items-center gap-2">
+
+
             <p>
-              Built With Love By{" "}
-              <span className="font-bold text-black tracking-wide ml-1">
-                <a
-                  href="https://crtedge.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Createdge
-                </a>
+              Built With Love By
+              <span className="font-bold text-black ml-1">
+                Createdge
               </span>
             </p>
-            <Heart size={13} className="text-[#ff4b4b] fill-[#ff4b4b] ml-0.5" />
+
+
+            <Heart
+              size={14}
+              className="text-red-500 fill-red-500"
+            />
+
+
           </div>
+
+
+
         </div>
+
+
       </div>
+
+
     </footer>
   );
 }
