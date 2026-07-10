@@ -4,7 +4,7 @@ import Header from "../../components/layout/Header";
 
 const PracticeAreasHero = () => {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black ">
       {/* Header */}
       <Header />
 
@@ -26,7 +26,7 @@ const PracticeAreasHero = () => {
 
         {/* Desktop / Tablet Banner */}
         <img
-          src="/WhatsApp Image 2026-06-08 at 16.26.23 (1).jpeg"
+          src="/WhatsApp Image 2026-07-10 at 12.53.37.jpeg"
           alt="Practice Areas Desktop"
           className="
             hidden

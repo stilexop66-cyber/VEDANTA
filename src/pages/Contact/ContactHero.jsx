@@ -4,7 +4,7 @@ import Header from "../../components/layout/Header";
 
 const PracticeAreasHero = () => {
   return (
-    <div className="bg-black min-h-screen w-full">
+    <div className="bg-black w-full">
       <Header />
 
       <div className="w-full pt-20 sm:pt-24 md:pt-28">
@@ -19,7 +19,7 @@ const PracticeAreasHero = () => {
 
           {/* Desktop / Tablet Image */}
           <img
-            src="/WhatsApp Image 2026-06-08 at 16.26.23.jpeg"
+            src="/WhatsApp Image 2026-07-10 at 12.48.09.jpeg"
             alt="Practice Areas Desktop"
             className="hidden md:block w-full h-auto object-contain"
           />
