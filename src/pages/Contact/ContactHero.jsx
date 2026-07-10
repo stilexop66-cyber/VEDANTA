@@ -8,7 +8,7 @@ const PracticeAreasHero = () => {
       <Header />
 
       {/* Space for fixed header */}
-      <div className="pt-28 md:pt-32 lg:pt-36">
+      <div className="pt-28 md:pt-32 lg:pt-20">
         {/* Mobile Image */}
         <img
           src="/WhatsApp Image 2026-06-10 at 15.37.23.jpeg"
