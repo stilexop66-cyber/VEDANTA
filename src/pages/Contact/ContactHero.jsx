@@ -4,27 +4,24 @@ import Header from "../../components/layout/Header";
 
 const PracticeAreasHero = () => {
   return (
-    <div className="bg-black w-full">
+    <div className="w-full bg-black">
       <Header />
 
-      <div className="w-full pt-20 sm:pt-24 md:pt-28">
-        <div className="w-full overflow-hidden">
+      {/* Space for fixed header */}
+      <div className="pt-28 md:pt-32 lg:pt-36">
+        {/* Mobile Image */}
+        <img
+          src="/WhatsApp Image 2026-06-10 at 15.37.23.jpeg"
+          alt="Practice Areas Mobile"
+          className="block md:hidden w-full h-auto"
+        />
 
-          {/* Mobile Image */}
-          <img
-            src="/WhatsApp Image 2026-06-10 at 15.37.23.jpeg"
-            alt="Practice Areas Mobile"
-            className="block md:hidden w-full h-auto object-contain"
-          />
-
-          {/* Desktop / Tablet Image */}
-          <img
-            src="/WhatsApp Image 2026-07-10 at 12.48.09.jpeg"
-            alt="Practice Areas Desktop"
-            className="hidden md:block w-full h-auto object-contain"
-          />
-
-        </div>
+        {/* Desktop / Tablet Image */}
+        <img
+          src="/WhatsApp Image 2026-07-10 at 12.48.09.jpeg"
+          alt="Practice Areas Desktop"
+          className="hidden md:block w-full h-auto"
+        />
       </div>
     </div>
   );
